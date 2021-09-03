@@ -5,6 +5,17 @@
     
 
 }
+
+
+.Home a:hover{
+    padding: 15px 30px;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(253, 202, 65); 
+    border-radius: 10px;
+
+
+}
 /* .Home{
     background-color: greenyellow;
     padding: 20px;
@@ -13,6 +24,7 @@
 
 .body{
     /* background-color: teal; */
+    
 background-image: url("../images/00.jpg");
 background-size: 100% 100%;
 background-repeat: no-repeat;
@@ -20,10 +32,11 @@ height: 700px;
 
 }
 
-.paragraph p{
+
+#paragraph{
     color: whitesmoke;
     font-size: 25px;
-    padding-top: 120px;
+    background-color: rgba(0, 0, 0,0.8);
 }
 #aka {
     font-size: 40px;
@@ -52,4 +65,15 @@ height: 700px;
     border: 2px solid rgb(253, 202, 65);
     border-radius: 5px
     ;
+}
+#output{
+    color: whitesmoke;
+    background-color: rgb(180, 165, 124);
+    font-size: 30px;
+    border-radius: 10px;
+}
+#foot{
+    height: 100px;
+    padding: 20px;
+    color: rgb(253, 202, 65);
 }
