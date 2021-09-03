@@ -52,70 +52,70 @@ function akanName() {
     switch (gender) {
       // if male gender is submit the following line of code will be executed.
 
-    //   case "male":
-    //     if (currentDayName == days[0]) {
-    //       let output =
-    //         "You were Born on " +
-    //         "" +
-    //         currentDayName +
-    //         "" +
-    //         " and your Akan name is " +
-    //         maleNames[0];
-    //       return output;
-    //     } else if (currentDayName == days[1]) {
-    //       let output =
-    //         "You were Born on " +
-    //         "" +
-    //         currentDayName +
-    //         "" +
-    //         " and your Akan name is " +
-    //         maleNames[1];
-    //       return output;
-    //     } else if (currentDayName == days[2]) {
-    //       let output =
-    //         "You were Born on " +
-    //         "" +
-    //         currentDayName +
-    //         "" +
-    //         " and your Akan name is " +
-    //         maleNames[2];
-    //       return output;
-    //     } else if (currentDayName == days[3]) {
-    //       let output =
-    //         "You were Born on " +
-    //         "" +
-    //         currentDayName +
-    //         "" +
-    //         " and your Akan name is " +
-    //         maleNames[3];
-    //       return output;
-    //     } else if (currentDayName == days[4]) {
-    //       let output =
-    //         "You were Born on " +
-    //         "" +
-    //         currentDayName +
-    //         "" +
-    //         " and your Akan name is " +
-    //         maleNames[4];
-    //       return output;
-    //     } else if (currentDayName == days[5]) {
-    //       let output =
-    //         "You were Born on " +
-    //         "" +
-    //         currentDayName +
-    //         "" +
-    //         " and your Akan name is " +
-    //         maleNames[5];
-    //       return output;
-    //     } else if (currentDayName == days[6]) {
-    //       let output =
-    //         "You were Born on " +
-    //         "" +
-    //         currentDayName +
-    //         "" +
-    //         " and your Akan name is " +
-    //         maleNames[6];
-    //       return output;
+      case "male":
+        if (currentDayName == days[0]) {
+          let output =
+            "You were Born on " +
+            "" +
+            currentDayName +
+            "" +
+            " and your Akan name is " +
+            maleNames[0];
+          return output;
+        } else if (currentDayName == days[1]) {
+          let output =
+            "You were Born on " +
+            "" +
+            currentDayName +
+            "" +
+            " and your Akan name is " +
+            maleNames[1];
+          return output;
+        } else if (currentDayName == days[2]) {
+          let output =
+            "You were Born on " +
+            "" +
+            currentDayName +
+            "" +
+            " and your Akan name is " +
+            maleNames[2];
+          return output;
+        } else if (currentDayName == days[3]) {
+          let output =
+            "You were Born on " +
+            "" +
+            currentDayName +
+            "" +
+            " and your Akan name is " +
+            maleNames[3];
+          return output;
+        } else if (currentDayName == days[4]) {
+          let output =
+            "You were Born on " +
+            "" +
+            currentDayName +
+            "" +
+            " and your Akan name is " +
+            maleNames[4];
+          return output;
+        } else if (currentDayName == days[5]) {
+          let output =
+            "You were Born on " +
+            "" +
+            currentDayName +
+            "" +
+            " and your Akan name is " +
+            maleNames[5];
+          return output;
+        } else if (currentDayName == days[6]) {
+          let output =
+            "You were Born on " +
+            "" +
+            currentDayName +
+            "" +
+            " and your Akan name is " +
+            maleNames[6];
+          return output;
         }
 
       // code that finds female names.
