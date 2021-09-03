@@ -1,7 +1,7 @@
 .Home a{
     padding: 15px 30px;
     text-decoration: none;
-    color:yellowgreen;
+    color:rgb(253, 202, 65);
     
 
 }
@@ -20,7 +20,13 @@ height: 700px;
 
 }
 
-.paragraph{
-    color: greenyellow;
+.paragraph p{
+    color: whitesmoke;
     font-size: 25px;
+    padding-top: 120px;
+}
+#aka {
+    font-size: 40px;
+    color:rgb(253, 202, 65);
+
 }
