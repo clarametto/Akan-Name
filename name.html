@@ -45,55 +45,60 @@
 
       <!-- Names and inputs -->
 
-      <div class="text-center">
+      <div class="container text-center">
+        <h3>Fill in the form to get Akan Name.</h3>
 
-         <h3>
-            Fill in the form to get Akan Name.
-         </h3>
-
-                <!-- start of form -->
+        <!-- start of form -->
 
         <!-- <form  action=""> -->
 
-            <div class="form">
-                <div id="form">
-
+        <div class="form">
+          <div id="form">
             <div class="form-group">
-                <label for="">Date</label>
-                <input type="text" placeholder="DD" class="form-control" id="date">
+              <label for="">Date</label>
+              <input
+                type="text"
+                placeholder="DD"
+                class="form-control"
+                id="date"
+              />
             </div>
             <div class="form-group">
-                <label for="">Month</label>
-                <input type="text" placeholder="MM" class="form-control" id="month">
+              <label for="">Month</label>
+              <input
+                type="text"
+                placeholder="MM"
+                class="form-control"
+                id="month"
+              />
             </div>
             <div class="form-group">
-                <label for="">Year  </label>
-                <input type="text" placeholder="YYYY" class="form-control" id="year">
+              <label for="">Year </label>
+              <input
+                type="text"
+                placeholder="YYYY"
+                class="form-control"
+                id="year"
+              />
             </div>
 
             <div class="gender">
-                <p><span> Gender</span></p>
-                <select name="gender" id="gender" >
-                    
-                    <option value="male">Male</option>
-                    <option value="female">Female</option>
-                </select>
-
+              <p><span> Gender</span></p>
+              <select name="gender" id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+              </select>
             </div>
-            <button  type="submit" class="button" onclick="akan()">Submit</button>
+            <button type="submit" class="btn btn-outline-warning rounded m-5" onclick="akan()">
+              Submit
+            </button>
+          </div>
+
+          <div id="output"></div>
         </div>
-            
-            <div  id="output">
-
-            </div>
-
-        
-    </div>
         <!-- </form> -->
 
-
         <!-- End of form -->
-
       </div>
     </div>
   </body>
