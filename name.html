@@ -1,63 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-        <!-- bootstrap css -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    
-        <!-- cuctom css -->
-        <link rel="stylesheet" href="./css/style.css">
-    
-        <title>Akan-Names</title>
-    
-    </head>
-    
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- bootstrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+
+    <!-- cuctom css -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Akan-Names</title>
+  </head>
+
+  <body>
     <div id="about">
+      <nav class="navbar px-5">
+        <div class="row container-fluid">
+          <!-- right -->
 
-        <nav class="navbar px-5">
-            <div class="row container-fluid">
-              <!-- right -->
-      
-              <div class="col-md-7">
-                <img src="images/akanlogo.png" alt="" />
-              </div>
-      
-              <!-- left -->
-      
-              <div class="col-md-5 pb-5">
-                <div class="text-centre Home">
-                  <a href="index.html">HOME</a>
-      
-                  <a href="about.html">ABOUT US</a>
-      
-                  <a href="name.html">GET AKAN NAMES</a>
-                </div>
-              </div>
-            </div>
-          </nav>
-    
-          <div class="container">
-
-            <div class="row">
-                <div class="col-md">
-                    <img src="/images/land2.jpg" alt="" class="img-fluid kid">
-                </div>
-                <div class="col-md text-center border">
-                  <h3>
-                      gggggg
-                  </h3>
-              </div>
-            </div>
+          <div class="col-md-7">
+            <img src="images/akanlogo.png" alt="" />
           </div>
 
-    </div>
+          <!-- left -->
 
-    
-</body>
+          <div class="col-md-5 pb-5">
+            <div class="text-centre Home">
+              <a href="index.html">HOME</a>
+
+              <a href="about.html">ABOUT US</a>
+
+              <a href="name.html">GET AKAN NAMES</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Names and inputs -->
+
+      <div class="text-center">
+
+         <h3>
+            Fill in the form to get Akan Name.
+         </h3>
+
+                <!-- start of form -->
+
+        <!-- <form  action=""> -->
+
+            <div class="form">
+                <div id="form">
+
+            <div class="form-group">
+                <label for="">Date</label>
+                <input type="text" placeholder="DD" class="form-control" id="date">
+            </div>
+            <div class="form-group">
+                <label for="">Month</label>
+                <input type="text" placeholder="MM" class="form-control" id="month">
+            </div>
+            <div class="form-group">
+                <label for="">Year  </label>
+                <input type="text" placeholder="YYYY" class="form-control" id="year">
+            </div>
+
+            <div class="gender">
+                <p><span> Gender</span></p>
+                <select name="gender" id="gender" >
+                    
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+
+            </div>
+            <button  type="submit" class="button" onclick="akan()">Submit</button>
+        </div>
+            
+            <div  id="output">
+
+            </div>
+
+        
+    </div>
+        <!-- </form> -->
+
+
+        <!-- End of form -->
+
+      </div>
+    </div>
+  </body>
 </html>
