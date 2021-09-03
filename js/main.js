@@ -120,72 +120,72 @@ function akanName() {
 
       // code that finds female names.
 
-    //   case "female":
-    //     if (currentDayName == days[0]) {
-    //       let output =
-    //         "You were Born on " +
-    //         "" +
-    //         currentDayName +
-    //         "" +
-    //         " and your Akan name is " +
-    //         femaleNames[0];
-    //       return output;
-    //     } else if (currentDayName == days[1]) {
-    //       let output =
-    //         "You were Born on " +
-    //         "" +
-    //         currentDayName +
-    //         "" +
-    //         " and your Akan name is " +
-    //         femaleNames[1];
-    //       return output;
-    //     } else if (currentDayName == days[2]) {
-    //       let output =
-    //         "You were Born on " +
-    //         "" +
-    //         currentDayName +
-    //         "" +
-    //         " and your Akan name is " +
-    //         femaleNames[2];
-    //       return output;
-    //     } else if (currentDayName == days[3]) {
-    //       let output =
-    //         "You were Born on " +
-    //         "" +
-    //         currentDayName +
-    //         "" +
-    //         " and your Akan name is " +
-    //         femaleNames[3];
-    //       return output;
-    //     } else if (currentDayName == days[4]) {
-    //       let output =
-    //         "You were Born on " +
-    //         "" +
-    //         currentDayName +
-    //         "" +
-    //         " and your Akan name is " +
-    //         femaleNames[4];
-    //       return output;
-    //     } else if (currentDayName == days[5]) {
-    //       let output =
-    //         "You were Born on " +
-    //         "" +
-    //         currentDayName +
-    //         "" +
-    //         " and your Akan name is " +
-    //         femaleNames[5];
-    //       return output;
-    //     } else if (currentDayName == days[6]) {
-    //       let output =
-    //         "You were Born on " +
-    //         "" +
-    //         currentDayName +
-    //         "" +
-    //         " and your Akan name is " +
-    //         femaleNames[6];
-    //       return output;
-    //     }
-    //     break;
+      case "female":
+        if (currentDayName == days[0]) {
+          let output =
+            "You were Born on " +
+            "" +
+            currentDayName +
+            "" +
+            " and your Akan name is " +
+            femaleNames[0];
+          return output;
+        } else if (currentDayName == days[1]) {
+          let output =
+            "You were Born on " +
+            "" +
+            currentDayName +
+            "" +
+            " and your Akan name is " +
+            femaleNames[1];
+          return output;
+        } else if (currentDayName == days[2]) {
+          let output =
+            "You were Born on " +
+            "" +
+            currentDayName +
+            "" +
+            " and your Akan name is " +
+            femaleNames[2];
+          return output;
+        } else if (currentDayName == days[3]) {
+          let output =
+            "You were Born on " +
+            "" +
+            currentDayName +
+            "" +
+            " and your Akan name is " +
+            femaleNames[3];
+          return output;
+        } else if (currentDayName == days[4]) {
+          let output =
+            "You were Born on " +
+            "" +
+            currentDayName +
+            "" +
+            " and your Akan name is " +
+            femaleNames[4];
+          return output;
+        } else if (currentDayName == days[5]) {
+          let output =
+            "You were Born on " +
+            "" +
+            currentDayName +
+            "" +
+            " and your Akan name is " +
+            femaleNames[5];
+          return output;
+        } else if (currentDayName == days[6]) {
+          let output =
+            "You were Born on " +
+            "" +
+            currentDayName +
+            "" +
+            " and your Akan name is " +
+            femaleNames[6];
+          return output;
+        }
+        break;
 
       // if unexpected input is received
 
