@@ -11,7 +11,7 @@
     border-radius: 10px;
 } */
 
-body{
+.body{
     /* background-color: teal; */
 background-image: url("../images/00.jpg");
 background-size: 100% 100%;
@@ -35,3 +35,21 @@ height: 700px;
 
 
 /* ABOUT US */
+
+#about{
+    /* background-color: rgba(231, 231, 231, 0.9); */
+    /* background-image: url("/images/black.png"); */
+    background-size: 100% 100%;
+    background-color: rgb(5,4,9);
+}
+
+.kid{
+    border-radius: 5px;
+    height: 80vh;
+    width: 40vw;
+}
+.border{
+    border: 2px solid rgb(253, 202, 65);
+    border-radius: 5px
+    ;
+}
