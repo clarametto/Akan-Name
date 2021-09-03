@@ -1,7 +1,7 @@
 .Home a{
     padding: 15px 30px;
     text-decoration: none;
-    color:black;
+    color:yellowgreen;
     
 
 }
@@ -12,6 +12,15 @@
 } */
 
 body{
-    background-color: teal;
-    
+    /* background-color: teal; */
+background-image: url("../images/00.jpg");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+height: 700px;
+
+}
+
+.paragraph{
+    color: greenyellow;
+    font-size: 25px;
 }
