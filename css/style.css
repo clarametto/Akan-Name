@@ -73,11 +73,7 @@ height: 700px;
     border-radius: 10px;
     
 }
-#foot{
-    height: 100px;
-    padding: 20px;
-    color: rgb(253, 202, 65);
-}
+
 
 
 /* footer */
@@ -106,12 +102,12 @@ height: 700px;
 
 
 }
-.footer{
+#footer{
     text-align: center;
     color: whitesmoke;
     font-size: 30px;
     padding: 20px;
-    background-color: rgba(8, 158, 71, 0.678);
+    background-color: rgb(180, 165, 124);
 
 }
 
@@ -125,6 +121,4 @@ height: 700px;
     font-size: 15px;
 }
 
-#ltd{
-    font-size: 10px;
-}
+
