@@ -81,3 +81,50 @@ height: 700px;
 
 
 /* footer */
+
+.footer ol{
+
+    /* background-color: rgba(8, 158, 71, 0.678); */
+
+    
+}
+#footer ol a{
+    /* background-color: rgba(8, 158, 71, 0.678); */
+
+}
+#footer{
+    display: flex;
+    padding-left: 37%;
+    padding-top: 20px;
+    
+}
+#imageX{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    /* background-color: rgba(8, 158, 71, 0.678); */
+
+
+}
+.footer{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 30px;
+    padding: 20px;
+    background-color: rgba(8, 158, 71, 0.678);
+
+}
+
+
+.footer h1{
+
+    font-size: 20px;
+}
+.footer h4{
+
+    font-size: 15px;
+}
+
+#ltd{
+    font-size: 10px;
+}
