@@ -60,6 +60,8 @@ border-radius: 20px;
     /* background-image: url("/images/black.png"); */
     background-size: 100% 100%;
     background-color: rgb(5,4,9);
+}h3{
+    color: whitesmoke;
 }
 
 .kid{
@@ -73,27 +75,23 @@ border-radius: 20px;
     color:wheat;
 }
 #output{
-    color: whitesmoke;
-    background-color: rgb(180, 165, 124);
+    color: black;
+    background-color: rgb(253, 202, 65);
     font-size: 30px;
     border-radius: 10px;
+    /* padding: 20px; */
     
+}
+label, p{
+    color: whitesmoke;
+    padding: 20px;
 }
 
 
 
 /* footer */
 
-.footer ol{
 
-    /* background-color: rgba(8, 158, 71, 0.678); */
-
-    
-}
-#footer ol a{
-    /* background-color: rgba(8, 158, 71, 0.678); */
-
-}
 #footer{
     display: flex;
     padding-left: 37%;
@@ -115,6 +113,8 @@ border-radius: 20px;
     padding: 20px;
     background-color:rgb(137,86,66);
     border-radius: 20px;
+    height: 180px;
+
 
 }
 #footer ol{
@@ -122,12 +122,19 @@ border-radius: 20px;
 }
 
 
-#footer h1{
+#footer p{
 
     font-size: 20px;
 }
-#footer h4{
-    font-size: 15px;
+
+h3 {
+    color:rgb(137,86,66) ;
 }
+h5:hover{
+    background-color: rgb(249,231,212);
+    color: black;
+    border-radius: 10px;
+}
+
 
 

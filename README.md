@@ -23,7 +23,7 @@
 ## **Setup/Installation**
 * Clone the Repo.
     * ```
-          git clone https://github.com/clarametto/My-PORTFOLIO.git
+          git clone https://github.com/clarametto/Akan-Name.git
       ```
 * Open the project on vs code or your desired editor.
 * Open the project on live Server.
