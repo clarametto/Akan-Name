@@ -11,8 +11,13 @@
     padding: 15px 30px;
     text-decoration: none;
     color: black;
-    background-color: rgb(253, 202, 65); 
+    background-color: rgb(165,199,63); 
     border-radius: 10px;
+
+
+}
+.btn{
+    background-color: rgb(165,199,63); 
 
 
 }
@@ -29,6 +34,7 @@ background-image: url("../images/00.jpg");
 background-size: 100% 100%;
 background-repeat: no-repeat;
 height: 700px;
+border-radius: 20px;
 
 }
 
@@ -95,8 +101,8 @@ height: 700px;
     
 }
 #imageX{
-    width: 30px;
-    height: 30px;
+    width: 70px;
+    height: 70px;
     border-radius: 100%;
     /* background-color: rgba(8, 158, 71, 0.678); */
 
@@ -107,17 +113,20 @@ height: 700px;
     color: whitesmoke;
     font-size: 30px;
     padding: 20px;
-    background-color: rgb(180, 165, 124);
+    background-color:rgb(137,86,66);
+    border-radius: 20px;
 
+}
+#footer ol{
+    padding-left: 15%;
 }
 
 
-.footer h1{
+#footer h1{
 
     font-size: 20px;
 }
-.footer h4{
-
+#footer h4{
     font-size: 15px;
 }
 
