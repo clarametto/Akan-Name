@@ -63,17 +63,21 @@ height: 700px;
 }
 .border{
     border: 2px solid rgb(253, 202, 65);
-    border-radius: 5px
-    ;
+    border-radius: 5px;
+    color:wheat;
 }
 #output{
     color: whitesmoke;
     background-color: rgb(180, 165, 124);
     font-size: 30px;
     border-radius: 10px;
+    
 }
 #foot{
     height: 100px;
     padding: 20px;
     color: rgb(253, 202, 65);
 }
+
+
+/* footer */
