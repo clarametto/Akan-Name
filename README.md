@@ -5,7 +5,7 @@
 #### This is a website that help you understand how Akan people use their culture in naming their children according  to the time they are born.
 
 
->The table below provides a few factors occurrence that let to one's naming.
+>The table below provides a few factors and occurrence that lead to one's naming.
 
 
 | Factor| Akan Name | Gender | M/F|
