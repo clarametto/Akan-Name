@@ -1,18 +1,20 @@
 ## **Application Name**
 #### Akan Names
-![Portfolio](images/black.png)
+![Portfolio](images/Culture4.jpg)
 ## **Description**
-#### As a programmer this is my portfolio resume. it is a showcase that brings to light my developing skills and to confidently prove that i can do what i talked about in my resume.
+#### This is a website that help you understand how Akan people use their culture in naming their children according  to the time they are born.
 
 
->The table below shows other website I have build and there links feel free to have a look.
+>The table below provides a few factors occurrence that let to one's naming.
 
 
-| Number | Project | View | Link |
+| Factor| Akan Name | Gender | M/F|
 | ---   |  ---     | ---  | --- |
-| 001 | Anita's kitchen  |-| [Visit](https://clarametto.github.io/Anitas-KItchen/)
-| 002 | Dairy-Farm | - | [Visit](https://clarametto.github.io/Metto-Dairy-Farm/index.html)
-| 003 | Photography Website | - | [Visit](https://clarametto.github.io/PHOTOGRAPHY/)
+| First born| Piesie | Male| -
+| Second born | Manu | Male | -
+| | maanu | -| Female
+
+
 
 
 ## **Contributors**
@@ -34,7 +36,8 @@ Personal
 ## **Technology Used**
  * HTML
 * CSS
-* README.md
+* Javascript
+
 ## **License**
 #### Mt [**License**](https://choosealicense.com/licenses/mit/)
 Copyright (c) 2021 [claramettoh!](https://clarametto.github.io/My-PORTFOLIO/)
