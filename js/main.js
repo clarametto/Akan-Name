@@ -1,4 +1,4 @@
-function akan() {
+function akanName() {
   function akanNameFunction() {
     let date = document.getElementById("date").value;
     let month = document.getElementById("month").value;
